@@ -30,3 +30,9 @@ Simple SMTP Relay to Sendgrid
         environment:
          SENDGRID_USER: postmaster@XXXXXXXXXXXXXXXX
          SENDGRID_PASS: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+ # Test
+
+    echo "Email Test" | mail -s "This is a simple test" destination@domain
+ 
+ 
