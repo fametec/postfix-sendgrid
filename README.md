@@ -3,14 +3,14 @@
 Simple SMTP Relay to Sendgrid
 
 
-# RUN
+# run
 
     docker run --rm -d --name postfix \
     -e SENDGRID_USER=postmaster@domain \
     -e SENDGRID_PASS=xxxxxxxxx \
     fametec/postfix-sendgrid 
 
-# DOCKER-COMPOSER
+# docker-compose
 
     version: '3.2'
     #
@@ -31,8 +31,8 @@ Simple SMTP Relay to Sendgrid
          SENDGRID_USER: postmaster@XXXXXXXXXXXXXXXX
          SENDGRID_PASS: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
- # Test
+ # testing
 
-    echo "Email Test" | mail -s "This is a simple test" destination@domain
+    echo "Email Test" | mail -s "This is a simple test" contato@fametec.com.br
  
  
