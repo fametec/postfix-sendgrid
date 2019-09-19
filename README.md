@@ -28,7 +28,7 @@ Simple SMTP Relay to Sendgrid
         ports:
          - "30025:25"
         environment:
-         SENDGRID_USER: postmaster@XXXXXXXXXXXXXXXX
+         SENDGRID_USER: apikey
          SENDGRID_PASS: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
  # testing
