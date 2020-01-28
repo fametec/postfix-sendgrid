@@ -30,6 +30,10 @@ Simple SMTP Relay to Sendgrid
         environment:
          SENDGRID_USER: apikey
          SENDGRID_PASS: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+        volumes:
+         - spool:/var/spool/postfix
+    volumes:
+      spool:
 
  # testing
 
