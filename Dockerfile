@@ -2,6 +2,8 @@ FROM centos:7
 
 MAINTAINER eduardo@fametec.com.br
 
+VOLUME /var/spool/postfix
+
 ENV SENDGRID_USER postmaster@xxxxxxxxxxxxxxxxxxx
 
 ENV SENDGRID_PASS xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
